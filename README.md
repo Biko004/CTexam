@@ -1,2 +1,0 @@
-# CTexam
-# CTexam

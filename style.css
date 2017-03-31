@@ -1,0 +1,13 @@
+.hilit{
+background-color: #add8e6;
+}
+.main{
+    padding: 0;
+}
+ul{
+    list-style-type:none
+}
+p{
+    margin: 0;
+    padding: 4px;
+}
