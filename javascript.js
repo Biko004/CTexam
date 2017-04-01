@@ -125,18 +125,6 @@ tree.handleClick = function (e) {
     }
 };
 
-tree.get_nearest_children = function (children) {
-    for (var i = 0; i < children.length; i++) {
-
-
-        if ($(children[i]).children('ul').length > 0) {
-            $(children[i]).children('p').unbind('click').bind('click', tree.handleClick);
-        }
-        $(children[i]).children('ul').remove();
-    }
-
-};
-
 tree.start = function () {
     $(document).ready(function () {
         tree.create_tree()
